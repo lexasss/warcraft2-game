@@ -1,0 +1,14 @@
+.creatures {
+	--size: 74px;
+}
+
+.creature {
+	width: var(--size);
+	height: var(--size);
+	background-repeat: no-repeat;
+	background-position: calc( 0 * var(--size)) calc( 0 * var(--size));
+}
+
+.knight {
+	background-image: url("../../assets/img/knight.png");
+}
